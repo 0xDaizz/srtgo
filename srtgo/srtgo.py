@@ -287,9 +287,9 @@ def reserve(rail_type="SRT"):
         default_passenger = int(default_passenger)
 
     if rail_type == "SRT":
-        stations = ["수서", "동탄", "오송", "대전", "동대구", "부산", "포항"]
+        stations = ["수서", "동탄", "오송", "대전", "동대구", "부산", "포항", "익산", "광주송정", "목포"]
     else:
-        stations = ["서울", "수원", "오송", "대전", "동대구", "부산", "포항"]
+        stations = ["서울", "수원", "오송", "대전", "동대구", "부산", "포항", "익산", "광주송정", "목포"]
 
     q_info = [
         inquirer.List(
